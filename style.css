@@ -74,7 +74,7 @@ body {
     display: grid;
     place-content: center;
     background-image: url('401.jpg');
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -114,9 +114,9 @@ body {
         background-position: 1000px;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     #shine {
-        font-size: 22px;
+        font-size: 25px;
     }
     #hedlinecontainer {
         display: flex;
